@@ -1,0 +1,22 @@
+Operator
+athematic Operator   + - * / % 
+assign Operator      += -= *= /=  ++ -- 
+comparsion Operator / Relational Operator  < > <= >= == ===  != !==
+
+Null aware Operator  ?? ??=
+check Type Operator  is  is!
+
+
+Conditions
+if else 
+if else if else 
+switch case 
+shorthand Condition  
+
+Logical Operator    && || 
+
+
+import 'dart:io';
+
+int.parse()
+toString()
