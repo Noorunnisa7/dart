@@ -1,0 +1,42 @@
+Arrays in Dart (List, Map, Set)
+-Dart does not have a separate array type
+instead, it uses List, Map, and Set as its main collection types.
+
+1. List (Equivalent to Arrays)
+-A List is an ordered collection of items.
+Indexed starting from 0.
+ List<dataType> a = [values...];
+
+2. Map (Key–Value pairs)
+-A Map is like a dictionary: stores data as key-value pairs.
+
+ Map<Key dataType , value Datatype> a = { key: values....};
+
+
+3. Set (Unique items, no duplicates)
+-A Set is an unordered collection of unique elements.
+
+Array Methods:
+list.add();
+list.addAll();
+list.insert(index, item);
+list.insertAll(index, items...);
+
+list.remove();
+list.removeAt(index);
+list.removeLast();
+list.removeRange(start, end);
+list.clear();   
+
+list.contains();
+list.indexOf();
+list.lastIndexOf();
+
+list.forEach();
+list.map().toList();
+list.sort();
+list.reduce((value, element) => value + element);
+list.join();
+list.shuffle();
+
+
